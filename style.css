@@ -1,0 +1,47 @@
+nav{
+    margin-left:150px;
+    margin-right:150px;
+    margin-top:10px;
+    border-bottom: 2px solid black;
+    background-color:white;
+    border-radius:15px;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 60px;
+    font-size: 17px;
+    color:black;
+    border-radius:15px;
+}
+
+.navbar{
+    display: table;
+    margin: 0 auto;
+    padding:0px;
+}
+
+.nav-index:hover, .nav-page3:hover{
+    background-color:black;
+    border-radius:5px;
+}
+
+.nav-index:active, .nav-page3:active{
+    background-color:grey;
+}
+
+
+nav a:hover{
+    color:white;
+}
